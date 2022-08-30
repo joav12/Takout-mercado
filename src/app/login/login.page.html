@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="log-in.page.scss">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+<ion-content [fullscreen]="true">
+  <img class="ftprincipal" src="../../assets/img/ImgFundo.png" alt="Imagem">
+
+  <div id="container" class="fundo1">
+    <h1 class="titulo"><b>Bem-Vindo!</b></h1>
+
+  <form>
+    <ion-input placeholder="seuemail@email.com" type="email" >
+      <ion-icon class="icones" name="mail" color="medium"></ion-icon>
+    </ion-input>
+
+    <ion-input placeholder="Insira sua senha" type="password" >
+      <ion-icon class="icones" name="lock-closed" color="medium"></ion-icon>
+    </ion-input>
+  </form>
+
+    <ion-label><a (click)="abrirPaginaRecuperar()" class="esenha" >Esqueceu a senha ?</a></ion-label>
+
+    <ion-button expand="block" mode="ios" class="butao" (click)="abrirPaginaHome()">Entrar</ion-button>
+
+    <ion-label class="cad">Não cadastrou sua loja ?<a (click)="abrirPaginaInfoCad()">Cadastre</a></ion-label>
+
+    <p class="google">Ou continue com </p>
+
+  </div>
+
+
+
+</ion-content>

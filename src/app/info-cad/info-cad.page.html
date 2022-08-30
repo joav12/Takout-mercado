@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="">
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <h1 class="titulo"><b>Informações</b></h1>
+    <p><small>Preecha com os dados do seu negócio</small></p>
+
+    <ion-label class="titulo2">CNPJ</ion-label>
+    <ion-input placeholder="00.000.000/0000-00" fill="outline" type="number" class="input"></ion-input>
+
+    <ion-label class="titulo2">Email</ion-label>
+    <ion-input placeholder="Preencha o CNPJ" fill="outline" type="text" class="input"></ion-input>
+
+    <ion-label class="titulo3">Nome do comércio</ion-label>
+    <ion-input placeholder="Exemplo: mescadinho do seu zé" fill="outline" type="text" class="input"></ion-input>
+
+    <ion-label class="titulo3">Número do comércio</ion-label>
+    <ion-input placeholder="(00) 00000-0000" fill="outline" type="number" class="input"></ion-input>
+
+    <ion-button expand="block" mode="md" class="butao" (click)="abrirPaginaHome()">Continuar</ion-button>
+
+    <ion-label class="footer">Já possui uma conta?<a (click)="abrirPaginaLogin()">Faça login</a></ion-label>
+
+  </div>
+
+</ion-content>

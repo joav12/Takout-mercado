@@ -1,0 +1,7 @@
+{
+  "name": "Takout-mercado",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
