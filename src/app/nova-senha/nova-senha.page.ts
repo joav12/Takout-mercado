@@ -2,11 +2,11 @@ import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-info-cad',
-  templateUrl: './info-cad.page.html',
-  styleUrls: ['./info-cad.page.scss'],
+  selector: 'app-nova-senha',
+  templateUrl: './nova-senha.page.html',
+  styleUrls: ['./nova-senha.page.scss'],
 })
-export class InfoCadPage implements OnInit {
+export class NovaSenhaPage implements OnInit {
 
   constructor(private rota: Router) { }
 
@@ -15,10 +15,6 @@ export class InfoCadPage implements OnInit {
 
   abrirPaginaLogin(){
     this.rota.navigateByUrl(`/login`)
-  }
-
-  abrirPaginaDonoCad(){
-    this.rota.navigateByUrl(`/dono-cad`)
   }
 
 }

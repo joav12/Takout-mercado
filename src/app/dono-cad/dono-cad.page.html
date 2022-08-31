@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="./dono-cad.page.scss">
+
+<ion-header class="ion-no-border">
+  <ion-icon name="arrow-back-outline" class="seta" size="large" (click)="voltarInfoCad()"></ion-icon>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+
+    <h1 class="titulo"><b>Responsável</b></h1>
+    <p><small>Preencha com os dados do dono do estábelecimento</small></p>
+
+    <ion-label class="titulo3">Nome completo</ion-label>
+    <ion-input placeholder="SeuNome" fill="outline" type="text" class="input"></ion-input>
+
+    <ion-label class="titulo2">CPF</ion-label>
+    <ion-input placeholder="000.000.000-00" fill="outline" type="number" class="input"></ion-input>
+
+    <ion-label class="titulo4">Seu email</ion-label>
+    <ion-input placeholder="SeuEmail@SeuEmail.com" fill="outline" type="email" class="input"></ion-input>
+
+    <ion-button expand="block" mode="md" class="butao" (click)="abrirPaginaHome()">Continuar</ion-button>
+  </div>
+
+</ion-content>

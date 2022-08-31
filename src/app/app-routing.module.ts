@@ -18,7 +18,23 @@ const routes: Routes = [
   {
     path: 'info-cad',
     loadChildren: () => import('./info-cad/info-cad.module').then( m => m.InfoCadPageModule)
+  },  {
+    path: 'dono-cad',
+    loadChildren: () => import('./dono-cad/dono-cad.module').then( m => m.DonoCadPageModule)
   },
+  {
+    path: 'recuperar',
+    loadChildren: () => import('./recuperar/recuperar.module').then( m => m.RecuperarPageModule)
+  },
+  {
+    path: 'codigo',
+    loadChildren: () => import('./codigo/codigo.module').then( m => m.CodigoPageModule)
+  },
+  {
+    path: 'nova-senha',
+    loadChildren: () => import('./nova-senha/nova-senha.module').then( m => m.NovaSenhaPageModule)
+  },
+
 ];
 
 @NgModule({

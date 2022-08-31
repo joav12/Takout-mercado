@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="./nova-senha.page.scss">
+
+<ion-content [fulscreen]="true">
+  <img class="ftprincipal" src="../../assets/img/ImgFundo3.png" alt="Imagem">
+
+  <div id="container" class="fundo1">
+    <ion-label class="paragrafo">Crie sua nova senha</ion-label>
+
+    <ion-input required placeholder="Nova senha" type="password" >
+      <ion-icon class="icones" name="lock-closed" color="medium"></ion-icon>
+    </ion-input>
+
+    <ion-input required placeholder="Confirmar senha" type="password" >
+      <ion-icon class="icones" name="lock-closed" color="medium"></ion-icon>
+    </ion-input>
+
+    <ion-button expand="block" class="butao" mode="ios" (click)="abrirPaginaLogin()">Criar nova senha</ion-button>
+
+  </div>
+
+
+</ion-content>

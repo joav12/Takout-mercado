@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="./codigo.page.scss">
+
+<ion-content [fulscreen]="true">
+
+  <ion-icon name="arrow-back-outline" class="seta" size="large" (click)="voltarRec()"></ion-icon>
+
+  <div id="container" class="fundo1">
+    <ion-label class="paragrafo">Um código foi enviado para o seu email</ion-label>
+
+    <ion-list>
+      
+      <ion-input required type="number" ></ion-input>
+
+      <ion-input required type="number" ></ion-input>
+
+      <ion-input required type="number" ></ion-input>
+
+      <ion-input required type="number" ></ion-input>
+    </ion-list>
+
+    <h6>Reenviar o código em </h6>
+    
+    <ion-button expand="block" class="butao" mode="ios" (click)="abrirPaginaNovaSenha()">Verificar</ion-button>
+    
+  </div>
+
+
+</ion-content>
