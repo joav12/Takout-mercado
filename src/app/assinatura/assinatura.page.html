@@ -4,12 +4,71 @@
 
   <h1 class="titulo">Escolha o plano de assinatura</h1>
 
-  <ion-item lines="none">
+  <ion-item class="ion-item1" lines="none">
     <ion-checkbox mode="md" slot="start"></ion-checkbox>
-    <ion-label text-wrap><b>Anual</b></ion-label>
-    <ion-label color="primary" class="desconto">-40% desconto</ion-label>
-    <ion-label text-wrap slot="end" class="preco"><b>R$98.80</b></ion-label>
-    <ion-label slot="end" class="ano">Todo ano</ion-label>
+    <ion-label>
+      <h6 class="anual"><b>Anual</b></h6>
+      <p class="desconto">-40% de desconto</p>
+    </ion-label>
+
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol">Todo ano</p>
+    </ion-label>
+
   </ion-item>
+
+  <ion-item class="ion-item1" lines="none" id="gatilhoClick">
+    <ion-label>
+      <h6 class="anual"><b>Você irá ganhar:</b></h6>
+
+      <p class="ben">
+        <ion-icon name="star"></ion-icon>
+        benefício 1
+      </p>
+
+      <p class="ben">
+        <ion-icon name="star"></ion-icon>
+        benefício 2
+      </p>
+
+      <p class="ben">
+        <ion-icon name="star"></ion-icon>
+        benefício 3
+      </p>
+
+    </ion-label>
+
+  </ion-item>
+
+  <ion-item class="ion-item2" lines="none">
+    <ion-checkbox mode="md" slot="start"></ion-checkbox>
+    <ion-label>
+      <h6 class="anual"><b>Anual</b></h6>
+      <p class="desconto">-40% de desconto</p>
+    </ion-label>
+
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol">Todo ano</p>
+    </ion-label>
+
+  </ion-item>
+
+  <ion-item class="ion-item2" lines="none">
+    <ion-checkbox mode="md" slot="start"></ion-checkbox>
+    <ion-label>
+      <h6 class="anual"><b>Anual</b></h6>
+      <p class="desconto">-40% de desconto</p>
+    </ion-label>
+
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol">Todo ano</p>
+    </ion-label>
+
+  </ion-item>
+
+  <ion-button expand="block" mode="md" class="butao" (click)="abrirPaginaHome()">Criar conta</ion-button>
 
 </ion-content>

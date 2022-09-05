@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-assinatura',
@@ -7,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AssinaturaPage implements OnInit {
 
-  constructor() { }
+  constructor(private rota: Router) { }
 
 
   ngOnInit() {
+  }
+
+  abrirPaginaHome(){
+    this.rota.navigateByUrl('/tabs/home')
   }
 
 }

@@ -8,23 +8,98 @@
   margin-top: 25%;
 }
 
-ion-item{
+.ion-item1{
+    --ion-item-background: #EAF2FF;
     margin-left: 5%;
     margin-right: 5%;
-    border: solid 1px #d1d1d1;
+    margin-bottom: 8px;
+    border: solid 1px #EAF2FF;
     border-radius: 10px;
+   
+    ion-checkbox{
+      border: solid 2px #d1d1d1;
+      border-radius: 5px;
+      
+    }
 
+    .anual{
+      margin-top: 3px;
+    }
 
   .desconto{
-    font-size: small;
+    color: #017AFF;
+    font-size: 10px;
+    margin-bottom: 2px;
     }
 
   .preco{
+    font-size: smaller;
+    }
+
+  .smol{
+    font-size: 10px;
+  }
+
+
+  .ben{
+      font-size: 12px;
+      margin-top: 10px;
+      
+  }
+
+  ion-icon{
+    color: #017AFF;
+  }
+
+}
+
+.ion-item2{
+  --ion-item-background: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 8px;
+  border: solid 1px #d1d1d1;
+  border-radius: 10px;
+ 
+  ion-checkbox{
+    border: solid 2px #d1d1d1;
+    border-radius: 5px;
     
-    }
+  }
 
-  .ano{
-    font-size: small;
-    }
+  .anual{
+    margin-top: 3px;
+  }
 
+.desconto{
+  color: #017AFF;
+  font-size: 10px;
+  margin-bottom: 2px;
+  }
+
+.preco{
+  font-size: smaller;
+  }
+
+.smol{
+  font-size: 10px;
+}
+
+
+.ben{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+ion-icon{
+  color: #017AFF;
+}
+
+}
+
+.butao{
+  margin-top: 24px;
+  margin-left:5% ;
+  margin-right:5% ;
 }
