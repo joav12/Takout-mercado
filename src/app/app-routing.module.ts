@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'nova-senha',
     loadChildren: () => import('./nova-senha/nova-senha.module').then( m => m.NovaSenhaPageModule)
   },
+  {
+    path: 'assinatura',
+    loadChildren: () => import('./assinatura/assinatura.module').then( m => m.AssinaturaPageModule)
+  },
 
 ];
 

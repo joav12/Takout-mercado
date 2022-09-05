@@ -17,8 +17,8 @@ export class DonoCadPage implements OnInit {
     this.rota.navigateByUrl(`/info-cad`)
   }
 
-  abrirPaginaHome(){
-    this.rota.navigateByUrl(`/home`)
+  abrirPaginaAssinatura(){
+    this.rota.navigateByUrl(`/assinatura`)
   }
 
 }
