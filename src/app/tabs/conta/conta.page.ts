@@ -24,7 +24,7 @@ export class ContaPage implements OnInit {
         {
           text: 'Sair',
           handler: () => {
-            this.rota.navigateByUrl(`/log-in`)
+            this.rota.navigateByUrl(`/login`)
           }
         }, {
           text: 'Cancelar',

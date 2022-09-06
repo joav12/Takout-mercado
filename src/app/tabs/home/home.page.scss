@@ -18,12 +18,10 @@ ion-content::part(scroll) {
   margin-top: 5%;
 }
 
-.carrinho{
-  text-decoration: none;
-  height: 10%;
-  width: 10%;
-  margin-left: 14%;
-  margin-bottom: -3.5%;
+.placeHolder{
+  margin-left: 10%;
+  width: 238px;
+  height: 123px;
 }
 
 .titulo1{
@@ -32,65 +30,76 @@ ion-content::part(scroll) {
 
 .titulo2{
   margin-left: 10%;
-  margin-bottom: -11%;
+  margin-bottom: -4%;
 }
 
-.diviTi{
-  display: flex;
-}
-
-#verMais{
-  font-size: small;
-  margin-left: 70%;
-}
-
-.placeHolder{
+.subtitulo2{
+  color: #535763;
+  font-size: 11px;
   margin-left: 10%;
-  width: 238px;
-  height: 123px;
+  margin-bottom: -7%;
+}
+
+.seta{
+  margin-left: 75%;
+  margin-bottom: 7%;
+}
+
+.ion-item2{
+  --ion-item-background: white;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 8px;
+  border: solid 1px #d1d1d1;
+  border-radius: 10px;
+ 
+  ion-checkbox{
+    border: solid 2px #d1d1d1;
+    border-radius: 5px;
+    
+  }
+
+  .anual{
+    margin-top: 3px;
+  }
+
+.desconto{
+  color: #017AFF;
+  font-size: 10px;
+  margin-bottom: 2px;
+  }
+
+.preco{
+  font-size: smaller;
+  }
+
+.smol1{
+  font-size: 10px;
+  
+}
+
+.smol2{
+  font-size: 10px;
+  margin-left: 50%;
+}
+
+
+.ben{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+ion-icon{
+  color: #017AFF;
+}
 
 }
 
-.placeHolderCat{
-  margin-bottom: 5%;
-}
+
 
 .lista1{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  justify-content: space-around;
-  -webkit-overflow-scrolling: touch;
-
-  .cat{
-      flex: 0 0 auto;
-  }
-}
-
-
-ion-card{
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  border-radius: 15%;
-
-  ion-card-title{
-    --color:#000000;
-  }
 
 }
 
-.placeHolderMV{
-  width: 238px;
-  height: 123px;
-}
 
-.lista2{
-  overflow-x: hidden;
-  overflow-y: hidden;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  overflow-x: auto;
-
-}

@@ -1,91 +1,53 @@
 <link rel="stylesheet" href="./home.page.scss">
 
 <ion-content [fullscreen] = "true">
-  <img src="../../assets/img/takout.png" alt="Imagen" class="imgTitulo"> <ion-icon name="cart-outline" class="carrinho" (click)="abrirPaginaCarrinho()"></ion-icon>
+  <img src="../../../assets/img/takout.png" alt="Imagen" class="imgTitulo">
 
-  <h5 class="titulo1">Ao seu redor</h5>
+  <h5 class="titulo1">Visão geral</h5>
 
   <ion-button class="placeHolder" color="medium">PLACE HOLDER</ion-button>
 
-   <h5 class="titulo2" >Categorias</h5> <h6 id="verMais"><a href="">Ver mais</a></h6>
+   <h6 class="titulo2">Pedidos recentes</h6>
+   <p class="subtitulo2">Quinta. 4 Agosto 2022</p>
+   <ion-icon name="chevron-forward" color="dark" class="seta"></ion-icon>
 
+   <ion-item class="ion-item2" lines="none">
+    <ion-label>
+      <h6 class="anual"><b>Pedido 1</b></h6>
+      <p class="smol1">Ver detalhes</p>
+    </ion-label>
 
-  <div class="lista1">
-    
-    <div class="cat">
-      <ion-fab-button class="placeHolderCat" color="medium" size="large" shape="round"></ion-fab-button>
-      <ion-label class="catLaber">Categoria</ion-label>
-    </div>
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol2">16:45</p>
+    </ion-label>
 
-    <div class="cat">
-      <ion-fab-button class="placeHolderCat" color="medium" size="large" shape="round"></ion-fab-button>
-      <ion-label class="catLaber">Categoria</ion-label>
-    </div>
+  </ion-item>
 
-    <div class="cat">
-      <ion-fab-button class="placeHolderCat" color="medium" size="large" shape="round"></ion-fab-button>
-      <ion-label class="catLaber">Categoria</ion-label>
-    </div>
+  <ion-item class="ion-item2" lines="none">
+    <ion-label>
+      <h6 class="anual"><b>Pedido 2</b></h6>
+      <p class="smol1">Ver detalhes</p>
+    </ion-label>
 
-    <div class="cat">
-      <ion-fab-button class="placeHolderCat" color="medium" size="large" shape="round"></ion-fab-button>
-      <ion-label class="catLaber">Categoria</ion-label>
-    </div>
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol2">16:45</p>
+    </ion-label>
 
-  </div>
+  </ion-item>
 
-  <h5 class="titulo2">Mais vendidos</h5> <h6 id="verMais"><a href="">Ver mais</a></h6>
+  <ion-item class="ion-item2" lines="none">
+    <ion-label>
+      <h6 class="anual"><b>Pedido 3</b></h6>
+      <p class="smol1">Ver detalhes</p>
+    </ion-label>
 
-  <div class="lista2">
+    <ion-label slot="end">
+      <h6 class="anual"><b>R$98.80</b></h6>
+      <p class="smol2">16:45</p>
+    </ion-label>
 
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 1</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 2</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 3</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 4</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 5</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-    <ion-card>
-      <ion-button class="placeHolderMV" color="medium">PLACE HOLDER</ion-button>
-      <ion-card-header>
-        <ion-card-subtitle>Produto 6</ion-card-subtitle>
-        <ion-card-title>R$ 9.99</ion-card-title>
-      </ion-card-header>
-    </ion-card>
-
-  </div>
+  </ion-item>
 
 </ion-content>
