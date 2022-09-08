@@ -15,10 +15,9 @@
 
     <ion-input placeholder="Valor:R$0,00" fill="outline" type="number" class="input"></ion-input>
 
-    <input type="file" accept="image/*" capture="camera"id="fileInput"/>
-      <label for="fileInput" icon-only ion-button>
-        <ion-icon name="camera"></ion-icon>
-      </label>
+    <ion-input class="inputImg" type="file" accept="image/*" capture="camera"id="fileInput">
+      <ion-icon name="image-outline" size="large"></ion-icon>
+    </ion-input>
 
     <ion-button expand="block" mode="md" class="butao" (click)="toastCad()">Cadastrar</ion-button>
   </div>
