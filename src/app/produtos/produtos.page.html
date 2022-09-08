@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="./produtos.page.scss">
+
+<ion-content [fullscreen]="true">
+
+  <div class="header">
+    <ion-icon name="arrow-back-outline" class="seta" size="large" (click)="voltarConta()"></ion-icon>
+    <h3>Produtos</h3>
+    <ion-fab vertical="top" horizontal="end" slot="fixed">
+      <ion-fab-button color="medium" id="addTop" size="small">
+        <ion-icon name="add" color="primary"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+    <ion-popover trigger="addTop" [dismissOnSelect]="true" class="listPop">
+      <ng-template>
+        <ion-content>
+          <ion-list lines="none">
+            <ion-label (click)="abrirPaginaAddProduto()">
+              <ion-icon name="add-circle-outline" slot="start" class="iconePop1"></ion-icon>
+              <ion-item [button]="true" [detail]="false" class="itemPop">Adicionar produto</ion-item>
+            </ion-label>
+
+            <ion-label>
+              <ion-icon name="remove-outline" slot="start" class="iconePop2"></ion-icon>
+              <ion-item [button]="true" [detail]="false" class="itemPop">Criar prateleira</ion-item>
+            </ion-label>
+          </ion-list>
+        </ion-content>
+      </ng-template>
+    </ion-popover>
+
+  </div>
+
+  <h6 class="subtitulo"><b>Estoque</b></h6>
+
+  <div>
+
+    <ion-item>
+      <ion-label>
+        <ion-icon name="document-text-outline"></ion-icon>
+        Informações da loja
+      </ion-label>
+      <ion-icon name="chevron-forward" color="medium"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <ion-icon name="settings-outline"></ion-icon>
+        Configurações
+      </ion-label>
+      <ion-icon name="chevron-forward" color="medium"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <ion-icon name="wallet-outline"></ion-icon>
+        Pagamentos
+      </ion-label>
+      <ion-icon name="chevron-forward" color="medium"></ion-icon>
+    </ion-item>
+
+  </div>
+
+</ion-content>

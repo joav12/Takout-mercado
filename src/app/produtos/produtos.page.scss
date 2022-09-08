@@ -1,0 +1,60 @@
+*{
+    --ion-background-color: white;
+    --ion-text-color: #000000;
+}
+
+.header{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+    h3{
+      margin-left: 20%;
+      margin-top: 11%;
+    }
+
+  .seta{
+    list-style: none;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  ion-fab{
+    margin-top: 8%;
+    margin-right: 4%;
+
+    ion-icon{
+        color: #017AFF;
+    }
+    
+  }
+
+ 
+  
+}
+
+.listPop{
+    border-radius: 20px;
+} 
+.itemPop{
+    margin-left: 7%
+}
+
+.iconePop1{
+    margin-bottom: -36px;
+    margin-left: 1%;
+}
+
+.iconePop2{
+    margin-bottom: -37px;
+    margin-left: 1%;
+ }
+
+
+.subtitulo{
+    margin-left: 5%;
+}
+  
+  ion-item{
+    --ion-item-background: #ffff;
+}
