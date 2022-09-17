@@ -15,6 +15,10 @@ const routes: Routes = [
         path: 'conta',
         loadChildren: () => import('../tabs/conta/conta.module').then( m => m.ContaPageModule)
       },
+      {
+        path: 'pedidos',
+        loadChildren: () => import('../tabs/pedidos/pedidos.module').then( m => m.PedidosPageModule)
+      },
     ]
   },
 ];

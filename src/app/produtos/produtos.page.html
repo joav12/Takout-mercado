@@ -11,10 +11,11 @@
       </ion-fab-button>
     </ion-fab>
 
-    <ion-popover trigger="addTop" [dismissOnSelect]="true" class="listPop">
+    <ion-popover trigger="addTop" [dismissOnSelect]="true" >
       <ng-template>
         <ion-content>
-          <ion-list lines="none">
+          <ion-list lines="none" class="listPop">
+            
             <ion-label (click)="abrirPaginaAddProduto()">
               <ion-icon name="add-circle-outline" slot="start" class="iconePop1"></ion-icon>
               <ion-item [button]="true" [detail]="false" class="itemPop">Adicionar produto</ion-item>

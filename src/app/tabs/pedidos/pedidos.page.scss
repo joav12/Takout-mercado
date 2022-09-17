@@ -1,0 +1,91 @@
+*{
+    --ion-background-color: #ffff;
+    --ion-text-color: #000000;
+    
+}
+
+ion-item{
+    --ion-item-background: #ffff;
+  }
+  
+  ion-content {
+    width: calc(100% + 15px);
+  }
+  ion-content::part(scroll) {
+    padding-right: 15px;
+  }
+  
+  .titulo1{
+    margin-top: 55px;
+    margin-right: 1%;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  
+  .titulo2{
+    margin-left: 10%;
+  }
+  
+  .subtitulo2{
+    color: #535763;
+    font-size: 11px;
+    margin-left: 10%;
+  }
+  
+  .seta{
+    margin-right: 10%;
+  }
+  
+  .ion-item2{
+    --ion-item-background: white;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 8px;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+   
+    ion-checkbox{
+      border: solid 2px #d1d1d1;
+      border-radius: 5px;
+      
+    }
+  
+    .anual{
+      margin-top: 3px;
+    }
+  
+  .desconto{
+    color: #017AFF;
+    font-size: 10px;
+    margin-bottom: 2px;
+    }
+  
+  .preco{
+    font-size: smaller;
+    }
+  
+  .smol1{
+    font-size: 10px;
+    
+  }
+  
+  .smol2{
+    font-size: 10px;
+    margin-left: 50%;
+  }
+  
+  
+  .ben{
+      font-size: 12px;
+      margin-top: 10px;
+      
+  }
+  
+  ion-icon{
+    color: #017AFF;
+  }
+  
+  }
+  
+  
+  

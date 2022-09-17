@@ -38,7 +38,8 @@ const routes: Routes = [
   {
     path: 'assinatura',
     loadChildren: () => import('./assinatura/assinatura.module').then( m => m.AssinaturaPageModule)
-  },  {
+  },
+  {
     path: 'produtos',
     loadChildren: () => import('./produtos/produtos.module').then( m => m.ProdutosPageModule)
   },
@@ -46,8 +47,6 @@ const routes: Routes = [
     path: 'add-produto',
     loadChildren: () => import('./add-produto/add-produto.module').then( m => m.AddProdutoPageModule)
   },
-
-
 ];
 
 @NgModule({
