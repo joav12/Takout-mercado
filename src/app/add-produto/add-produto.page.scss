@@ -66,8 +66,12 @@
     }
   }
   
-  .fbranco{
-  --ion-item-background:#ffff;
+  ion-item{
+    --ion-item-background: #d1d1d1;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+    max-width: 90%;
+    margin-left: 5%;
   }
   
   

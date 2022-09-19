@@ -18,6 +18,16 @@
     <ion-input class="inputImg" type="file" accept="image/*" capture="camera"id="fileInput">
       <ion-icon name="image-outline" size="large"></ion-icon>
     </ion-input>
+    
+    <ion-item lines="none">
+      <ion-label>
+        Quantidade
+      </ion-label>
+
+      <ion-icon name="remove-circle-outline" (click)="menos()" size="large" color="medium"></ion-icon>
+      <p>{{currentNumber}}</p>
+      <ion-icon name="add-circle-outline" (click)="mais()" size="large" color="medium"></ion-icon>
+    </ion-item>
 
     <ion-button expand="block" mode="md" class="butao" (click)="toastCad()">Cadastrar</ion-button>
   </div>

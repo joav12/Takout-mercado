@@ -9,10 +9,21 @@ import { ToastController } from '@ionic/angular';
 })
 export class AddProdutoPage implements OnInit {
 
+  private currentNumber = 0;
+
   constructor(private rota: Router, private toastController: ToastController) { }
 
   ngOnInit() {
   }
+
+  private mais() {
+    this.currentNumber++;
+  }
+  
+  private menos() {
+    this.currentNumber--;
+  }
+ 
 
   voltarProdutos(){
     this.rota.navigateByUrl(`/produtos`)
