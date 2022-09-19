@@ -1,0 +1,49 @@
+*{
+    --ion-background-color: #ffff;
+    --ion-text-color: #000000;
+    
+}
+
+.titulo1{
+    margin-top: 55px;
+    margin-right: 1%;
+    margin-bottom: 45px;
+    text-align: center; 
+}
+
+ion-item{
+    --ion-item-background: #ffff;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    .subtitulo{
+        color: #017AFF;
+        font-size: 11px;
+      }
+
+    .seta{
+        font-size: 20px;
+        margin-left: 4px;
+    }  
+
+    .mes{
+        font-size: 15px;
+    }
+}
+
+.placeHolder{
+    margin-left: 10%;
+    width: 250px;
+    height: 200px;
+}
+
+.subtitulo2{
+    color: #9B9B9B;
+    font-size: 11px;
+    margin-left: 10%;
+  }
+
+.icone{
+    font-size: 16px;
+    margin-right: 10px;
+}
