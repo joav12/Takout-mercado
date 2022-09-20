@@ -23,7 +23,6 @@ export class AddProdutoPage implements OnInit {
   private menos() {
     this.currentNumber--;
   }
- 
 
   voltarProdutos(){
     this.rota.navigateByUrl(`/produtos`)

@@ -15,10 +15,13 @@
 
     <ion-input placeholder="Valor:R$0,00" fill="outline" type="number" class="input"></ion-input>
 
-    <ion-input class="inputImg" type="file" accept="image/*" capture="camera"id="fileInput">
-      <ion-icon name="image-outline" size="large"></ion-icon>
-    </ion-input>
-    
+    <div>
+      <label class="fotinha" for='selecao-arquivo'>
+        <ion-icon name="image-outline" size="large"></ion-icon>
+      </label>
+      <input class="inputImg" id='selecao-arquivo' type='file' accept="image/*">
+    </div>
+
     <ion-item lines="none">
       <ion-label>
         Quantidade

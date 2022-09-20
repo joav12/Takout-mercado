@@ -52,7 +52,7 @@
     margin-right: 60%;
   }
 
-  ion-input{
+  .input{
     text-align: start;
     border: solid 1px #d1d1d1;
     background-color: #d1d1d1;
@@ -61,9 +61,26 @@
     margin-left: 5%;
     max-width: 90%; // <--- Felicidade genuina
 
-    .inputImg{
-      height: 400px;
-    }
+  }
+
+  .inputImg{
+    display: none;
+  }
+
+  .fotinha{
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 200px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+    background-color: #d1d1d1;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+    cursor: pointer;
   }
   
   ion-item{
@@ -73,7 +90,6 @@
     max-width: 90%;
     margin-left: 5%;
   }
-  
   
   .tdu{
   font-size: small;
