@@ -67,10 +67,29 @@
     display: none;
   }
 
+  .listinhaTop{
+    display: flex;
+  }
+
+  .addImg{
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 130px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+    background-color: #d1d1d1;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+  }
+
   .fotinha{
     margin: 0 auto;
     padding: 20px 10px;
-    width: 200px;
+    width: 130px;
     margin-bottom: 5%;
     margin-top: 10px;
     background-color: #d1d1d1;

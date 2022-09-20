@@ -9,6 +9,7 @@ import { ToastController } from '@ionic/angular';
 })
 export class AddProdutoPage implements OnInit {
 
+ 
   private currentNumber = 0;
 
   constructor(private rota: Router, private toastController: ToastController) { }
